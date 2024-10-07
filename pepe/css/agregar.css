@@ -1,0 +1,83 @@
+.bodyvv {
+    font-family: "SUSE", sans-serif;
+}
+.containervv {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.buttonvv {
+    background-color: #4CAF50;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonvv:hover {
+    background-color: #45a049;
+}
+.modalvv {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    color: #000;
+}
+.modal-contentvv {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+}
+.closevv {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.closevv:hover,
+.closevv:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.formvv {
+    display: flex;
+    flex-direction: column;
+}
+.labelvv {
+    margin-top: 10px;
+}
+.inputvv, .textareavv {
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.submit-buttonvv {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
+.submit-buttonvv:hover {
+    background-color: #45a049;
+}
